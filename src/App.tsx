@@ -5,9 +5,7 @@ import {
   Route,
   Routes,
   Link,
-  Navigate,
 } from "react-router-dom";
-import BrowserRouterProps from "react-router-dom";
 import Pokemons from "./views/pokemons";
 
 function App() {

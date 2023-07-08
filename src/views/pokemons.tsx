@@ -15,7 +15,10 @@ function Pokemons() {
       <CardPokemon />
     </React.StrictMode>
   );
-  return "hello";
+  return (<React.StrictMode>
+    <Pikachu />
+    <CardPokemon />
+  </React.StrictMode>);
 }
 
 export default Pokemons;

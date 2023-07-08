@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Theme, createStyles, makeStyles } from "@material-ui/core/styles";
 import {
-  Button,
   Card,
-  CardActionArea,
-  CardActions,
   CardContent,
   CardMedia,
-  Chip,
   Typography,
 } from "@material-ui/core";
 
@@ -68,7 +64,7 @@ function CardPokemon() {
       {todos.map((todo: Todo) => (
         <Card>
           <CardMedia>
-            <img className="imagePokemon" src={todo.image} />
+            <img alt="img" className="imagePokemon" src={todo.image} />
           </CardMedia>
           <CardContent className={classes.left}>
             <Typography className={classes.b1} component="p">
